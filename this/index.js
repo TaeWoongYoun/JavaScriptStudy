@@ -1,4 +1,4 @@
-// 9분 대회
+// 9분
 
 // // window??
 // console.log(this)
@@ -21,12 +21,12 @@
 // // {id: 'xodnd7374', pw: '1234', hamsu: ƒ} 출력결과
 // object.hamsu();
 
-var data = {
-    type : {
-        type2 : function(){
-            console.log(this);
-        }
-    }
-}
-// {type2: ƒ} 출력결과 / 상위요소만 나타남
-data.type.type2();
+// var data = {
+//     type : {
+//         type2 : function(){
+//             console.log(this);
+//         }
+//     }
+// }
+// // {type2: ƒ} 출력결과 / 상위요소만 나타남
+// data.type.type2();
