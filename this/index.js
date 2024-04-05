@@ -30,3 +30,25 @@
 // }
 // // {type2: ƒ} 출력결과 / 상위요소만 나타남
 // data.type.type2();
+
+
+
+// constructor
+// document.getElementById('btn').addEventListener('click', function(e){
+//     // console.log(this); 
+//     let arrey = [1,2,3];
+//     arrey.forEach(function(a){
+//         console.log(this);
+//     })
+// })
+
+var object3 = {
+    names : ["xodnd", "ehdus", "vlfflq"],
+    hamsus : function(){
+        object3.names.forEach(function(){
+            console.log(this)
+        })
+    }
+}
+
+object3.hamsus();
