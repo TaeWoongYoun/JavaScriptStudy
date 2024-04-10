@@ -25,3 +25,11 @@
 // object.hamsu();
 
 // 에로우 펑션은 this와 사용하면 안됨.
+
+var 사람 = {
+    hi: "안녕",
+    my: "나는",
+    name: '손흥민',
+}
+
+사람.sayHi(this); 
